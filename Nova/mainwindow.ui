@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>77</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>305</width>
+    <height>77</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>305</width>
+    <height>77</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Nova</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icons.qrc">
+    <normaloff>:/icons/icons/preferences.png</normaloff>:/icons/icons/preferences.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow{
+
+background-color:#5f5f5f ;}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QSlider" name="horizontalSlider">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider#horizontalSlider{
+
+background-color:#5f5f5f ;}
+
+
+QSlider#horizontalSlider:hover{
+
+background-color:#686868 ;}</string>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::NoTicks</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volume50">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Volume 50%</string>
+    </property>
+    <property name="statusTip">
+     <string>50%</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#volume50{
+
+background-color:#ababab ;}
+
+QPushButton#volume50:hover{
+
+background-color:#989878 ;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/icons/audio-volume-medium-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-medium-symbolic.symbolic.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volume100">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>31</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Volume 100%</string>
+    </property>
+    <property name="statusTip">
+     <string>100%</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#volume100{
+
+background-color:#ababab ;}
+
+QPushButton#volume100:hover{
+
+background-color:#989878 ;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/icons/audio-volume-high-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-high-symbolic.symbolic.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volumeMuted">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Mute Volume</string>
+    </property>
+    <property name="statusTip">
+     <string>0%</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#volumeMuted{
+
+background-color:#ababab ;}
+
+QPushButton#volumeMuted:hover{
+
+background-color:#989878 ;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/icons/audio-volume-muted-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-muted-symbolic.symbolic.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="styleSheet">
+    <string notr="true">QStatusBar#statusBar{
+
+color:white ;}</string>
+   </property>
+  </widget>
+  <action name="actionIncreaseVolume">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/more.png</normaloff>:/icons/icons/more.png</iconset>
+   </property>
+   <property name="text">
+    <string>IncreaseVolume</string>
+   </property>
+   <property name="toolTip">
+    <string>Increase Volume</string>
+   </property>
+  </action>
+  <action name="actionDecreaseVolume">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/icons/less.png</normaloff>:/icons/icons/less.png</iconset>
+   </property>
+   <property name="text">
+    <string>DecreaseVolume</string>
+   </property>
+   <property name="toolTip">
+    <string>Decrease Volume</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

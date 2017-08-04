@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/audio-volume-high-symbolic.symbolic.png</file>
+        <file>icons/audio-volume-low-symbolic.symbolic.png</file>
+        <file>icons/audio-volume-medium-symbolic.symbolic.png</file>
+        <file>icons/audio-volume-muted-symbolic.symbolic.png</file>
+        <file>icons/less.png</file>
+        <file>icons/more.png</file>
+        <file>icons/preferences.png</file>
+    </qresource>
+</RCC>
