@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>305</width>
-    <height>77</height>
+    <height>184</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+   <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
@@ -19,13 +19,13 @@
   <property name="minimumSize">
    <size>
     <width>305</width>
-    <height>77</height>
+    <height>177</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>305</width>
-    <height>77</height>
+    <height>377</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -37,24 +37,32 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow#MainWindow{
+background-color:#353535;
+color:white;
+font-size: 14px;
+border: 4px solid #232323; border-radius: 9px;}
 
-background-color:#5f5f5f ;}</string>
+QPushButton:hover {
+background-color: #2a598a;}
+
+</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QSlider" name="horizontalSlider">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>0</y>
-      <width>201</width>
-      <height>31</height>
+      <x>10</x>
+      <y>20</y>
+      <width>281</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QSlider#horizontalSlider{
 
-background-color:#5f5f5f ;}
+border: 4px solid #232323; border-radius: 9px;
 
+background-color:#5f5f5f ;}
 
 QSlider#horizontalSlider:hover{
 
@@ -74,9 +82,9 @@ background-color:#686868 ;}</string>
     <property name="geometry">
      <rect>
       <x>110</x>
-      <y>30</y>
-      <width>31</width>
-      <height>21</height>
+      <y>100</y>
+      <width>51</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -87,6 +95,8 @@ background-color:#686868 ;}</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton#volume50{
+
+border: 4px solid #232323; border-radius: 9px;
 
 background-color:#ababab ;}
 
@@ -101,14 +111,20 @@ background-color:#989878 ;}</string>
      <iconset resource="icons.qrc">
       <normaloff>:/icons/icons/audio-volume-medium-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-medium-symbolic.symbolic.png</iconset>
     </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
    </widget>
    <widget class="QPushButton" name="volume100">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>30</y>
-      <width>31</width>
-      <height>22</height>
+      <x>170</x>
+      <y>100</y>
+      <width>51</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -119,6 +135,8 @@ background-color:#989878 ;}</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton#volume100{
+
+border: 4px solid #232323; border-radius: 9px;
 
 background-color:#ababab ;}
 
@@ -133,14 +151,20 @@ background-color:#989878 ;}</string>
      <iconset resource="icons.qrc">
       <normaloff>:/icons/icons/audio-volume-high-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-high-symbolic.symbolic.png</iconset>
     </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
    </widget>
    <widget class="QPushButton" name="volumeMuted">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>31</width>
-      <height>21</height>
+      <x>50</x>
+      <y>100</y>
+      <width>51</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -151,6 +175,7 @@ background-color:#989878 ;}</string>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton#volumeMuted{
+border: 4px solid #232323; border-radius: 9px;
 
 background-color:#ababab ;}
 
@@ -164,6 +189,12 @@ background-color:#989878 ;}</string>
     <property name="icon">
      <iconset resource="icons.qrc">
       <normaloff>:/icons/icons/audio-volume-muted-symbolic.symbolic.png</normaloff>:/icons/icons/audio-volume-muted-symbolic.symbolic.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
     </property>
    </widget>
   </widget>
