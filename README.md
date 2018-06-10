@@ -8,8 +8,7 @@ Nova is a Pulseaudio volume control program. It is similar to Vol2X-Reloaded –
 
 Icons are from Adwaita project and they may have different license. See: Icons file for further information.
 
-![nova](https://user-images.githubusercontent.com/29865797/28989768-27851010-7980-11e7-9ce0-2fc3390760e5.jpg)
-
+![nova2](https://user-images.githubusercontent.com/29865797/41203436-56b80c72-6cc6-11e8-907f-5110d809595e.jpg)
 ______________
 
 Features:
