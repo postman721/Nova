@@ -2,6 +2,8 @@
 
 Nova is a lightweight, classic radio-style volume control.
 
+<img width="344" height="303" alt="Image" src="https://github.com/user-attachments/assets/3bce58cd-8a28-44a1-b22f-a5264cbd3381" />
+
 ## Dependencies
 
 #### Required
