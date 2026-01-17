@@ -20,7 +20,7 @@ pavucontrol
 
 ##### Debian: 
 
-		sudo apt install qt6-base-dev, qt6-base-dev-tools pulseaudio-utils pavucontrol
+		sudo apt install qt6-base-dev qt6-base-dev-tools pulseaudio-utils pavucontrol
 
 
 
